@@ -239,6 +239,7 @@ variable "target_group_attachments" {
     port              = optional(number)
     availability_zone = optional(string)
   }))
+  default = null
 }
 
 variable "listener_port" {
